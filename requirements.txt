@@ -1,0 +1,9 @@
+telethon>=1.36.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+pymongo>=4.6.0
+qrcode>=7.4.2
+Pillow>=10.0.0
+cryptg
+phonenumbers>=8.13.0
+pycountry>=23.12.11
