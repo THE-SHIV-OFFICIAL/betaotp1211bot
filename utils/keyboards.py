@@ -58,12 +58,12 @@ def get_persistent_menu(uid):
 def get_main_inline_menu():
     """Inline menu: dark (default) buttons, green Bot Guide, red More."""
     return [
-        [style_btn("Buy tg Acc", b"menu_buy", None, premium_service_id("✈️", 5350433153687235163)),
-         style_btn("Buy Wp Acc", b"menu_whatsapp", None, premium_service_id("💬", 5206384258431599552))],
-        [style_btn("All apps acc", b"menu_numbers", None, premium_service_id("📲", 5900192223160438756)),
+        [style_btn("Buy telegram Acc", b"menu_buy", "primary", premium_service_id("✈️", 6264777724741556322)),
+         style_btn("Buy Whatsapp Acc", b"menu_whatsapp", "primary", premium_service_id("💬", 5206384258431599552))],
+        [style_btn("All apps sms", b"menu_numbers", None, premium_service_id("📲", 6100636573043268040)),
          style_btn("Social media services", b"menu_smm", None, premium_service_id("🚀", 6129639980387015660))],
-        [style_btn("Recharge", b"menu_recharge", None, premium_service_id("💲", 5206391796099204564)),
-         style_btn("My Profile", b"menu_account", None, premium_service_id("👑", 6129739490484294910))],
+        [style_btn("Recharge", b"menu_recharge", "primary", premium_service_id("💲", 5206391796099204564)),
+         style_btn("My Profile", b"menu_account", "primary", premium_service_id("👑", 6129739490484294910))],
         [style_url("Support", get_support_url(), None, 6129732880529628243),
          style_btn("Settings", b"menu_settings", None, premium_service_id("🛠", 5213214428958306222))],
         [style_btn("Bot Guide", b"menu_guide", "success", premium_service_id("📲", 5900192223160438756))],
